@@ -4,7 +4,7 @@
   "description": "Simple API template made with Typescript and Node.js.",
   "main": "index.ts",
   "scripts": {
-    "start": "npm run build && node build/index.js",
+    "start": "npm run build && node build/src/index.js",
     "start:dev": "nodemon",
     "build": "npm run lint && rimraf ./build && tsc",
     "test": "jest --coverage  --coverageDirectory='coverage'",
