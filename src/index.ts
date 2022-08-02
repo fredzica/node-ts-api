@@ -3,7 +3,7 @@ import express from 'express'
 import main from './controllers/main'
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 app.use('/main', main)
 
